@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="{{ asset('assets/img') }}/favicon.ico" type="image/x-icon">
-    <title>@yield('title') | {{ __('Mysume') }}</title>
+    <title>@yield('title') | {{ __('Wesume') }}</title>
 
     {{-- Bootstrap CSS --}}
     <link href="{{ asset('assets/css') }}/bootstrap.min.css" rel="stylesheet">
@@ -47,7 +47,7 @@
     {{-- navbar --}}
     <nav class="navbar navbar-expand-lg bg-purple-dark sticky-top">
         <div class="container-fluid d-flex justify-content-between w-100">
-            <a class="navbar-brand fs-3 text-blue-light ff-days-one text-decoration-none" href="{{ route('home') }}">mysume</a>
+            <a class="navbar-brand fs-3 text-blue-light ff-days-one text-decoration-none" href="{{ route('home') }}">Wesume</a>
             <button class="navbar-toggler m-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
                     <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,8 +73,8 @@
     {{-- footer --}}
     <footer class="text-center bg-purple-dark w-100 bottom-0">
         <div class="text-center text-white p-4 small">
-            © 2021
-            <span class="text-blue-light">www.mysume.com<span class="text-white"> | Design & Developed By </span><a href="https://www.yangedruce.com" class="text-decoration-none text-blue-light">Yang Edruce</a></span>
+            © 2023
+            <span class="text-blue-light">www.wesume.com<span class="text-white"> | Design & Developed By </span><a href="#" class="text-decoration-none text-blue-light">Vijayasree S P</a> & <a href="#" class="text-decoration-none text-blue-light">Yakshitha</a></span>
         </div>
     </footer>
 

@@ -109,7 +109,7 @@
         <div class="d-flex justify-content-center align-items-center h-100 w-100">
             <div class="col-10 col-xl-8">
                 <h2 class="text-center fs-1 ff-days-one mb-5 text-blue-light">
-                    mysume
+                    Wesume
                 </h2>
                 
                 {{-- messages/alerts --}}
