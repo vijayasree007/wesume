@@ -1,57 +1,73 @@
-# Mysume Documentation
+# Wesume Documentation
 
-Mysume is a resume builder developed using Laravel 8 and stylized with Bootstrap 5. It features a resume builder with selectable template which can be shared and viewed publicly.
+Create Your Perfect Resume in Minutes with Wesume - The Ultimate Resume Builderusing Laravel and stylized with bootstrap 5!
 
 # Setup
 
 To setup Mysume in your local machine, simply run this command below where 'app' is the name of the folder of the project.
 
 ```shell
-git clone https://github.com/yangedruce/mysume.git app
+git clone https://github.com/vijayasree007/wesume.git
 ```
 
 Run this command below in your project directory to install all required vendor files .
 
 ```shell
+cd wesume
+composer update
 composer install
 ```
 
-Run this command below in your project directory to create .env file.
+Make changes in the .env file (ie: setup your database and SMTP services)
 
 ```shell
 cp .env.example .env
 ```
 
-Run this command below in your project directory to generate key in .env file.
+Generate key in .env file.
 
 ```shell
 php artisan key:generate
 ```
 
-In order for Mysume to work, you must set your email configuration in .env file. You may use [mailtrap.io](http://mailtrap.io/) for development purpose and use it's SMTP integration codes in your .env file.
+> cd hospitalMS
+> composer install or composer update
+> cp .env.example .env
+> Set up .env file
+> php artisan key:generate
+> php artisan storage:link
+> php artisan migrate:fresh --seed
+> php artisan serve
 
-Next, you may create a corresponding database using a Database Management System and setup the configurations for the database in your .env file.
 
-After completing the steps above, simply run this command below.
+To enable Mysume to function properly, it is necessary to configure your email settings in the .env file. During development, you can utilize mailtrap.io and incorporate its SMTP integration codes in the .env file.
+
+Additionally, a database must be created using a Database Management System, and the corresponding configurations for the database should be established in the .env file.
+
+After configuring, run.
 
 ```shell
 php artisan config:cache
 ```
 
-Migrate the tables and required seeder file to your database using the command below.
+Migrate the tables to your database using the command below.
 
 ```shell
 php artisan migrate --seed
 ```
 
-Run command below to setup link for storage files
+Setup link for storage files
 
 ```markdown
 php artisan storage:link
 ```
 
-[The wireframes and design](https://www.figma.com/file/zsQqGrYLO1sjGQWb6hBSoF/Resume-Builder-Mysume?node-id=0%3A1)
+To view the live app in local server, run.
 
-You may view the app live [here](https://www.mysume.yangedruce.com/)
+```shell
+php artisan serve
+```
 
-That's it! Your own Mysume app is now ready.
+You may view the app live [here]()
+
+Congratulations! Your very own Mysume application is now complete.
