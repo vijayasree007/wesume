@@ -30,16 +30,6 @@ Generate key in .env file.
 php artisan key:generate
 ```
 
-> cd hospitalMS
-> composer install or composer update
-> cp .env.example .env
-> Set up .env file
-> php artisan key:generate
-> php artisan storage:link
-> php artisan migrate:fresh --seed
-> php artisan serve
-
-
 To enable Mysume to function properly, it is necessary to configure your email settings in the .env file. During development, you can utilize mailtrap.io and incorporate its SMTP integration codes in the .env file.
 
 Additionally, a database must be created using a Database Management System, and the corresponding configurations for the database should be established in the .env file.
