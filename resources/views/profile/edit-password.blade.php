@@ -40,9 +40,9 @@
                         <input type="password" class="form-control main-input ff-montserrat small" id="inputConfirmPassword" name="password_confirmation" required>
                     </div>
                     <div class="d-flex justify-content-center align-items-center mt-5 flex-column flex-md-row">
-                        <button type="submit" class="btn btn-main btn-width m-2 text-white"><small>{{ __('Update') }}</small></button>
+                        <button type="submit" class="btn  btn-dark rounded-pill btn-width m-2 text-white"><small>{{ __('Update') }}</small></button>
                         <a href="{{ route('profile.edit') }}" class="m-2">
-                            <button type="button" class="btn btn-main-blue btn-width text-blue-dark"><small>{{ __('Back') }}</small></button>
+                            <button type="button" class="btn  btn-dark rounded-pill btn-width text-white"><small>{{ __('Back') }}</small></button>
                         </a>
                     </div>
                 </div>

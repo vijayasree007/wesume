@@ -22,7 +22,7 @@
     {{-- loading --}}
     <div class="position-fixed vw-100 vh-100 d-none loading" id="loading">
         <div class="d-flex justify-content-center align-items-center w-100 h-100">
-            <div class="spinner-border text-purple-dark" role="status">
+            <div class="spinner-border text-dark" role="status">
                 <span class="visually-hidden">Loading...</span>
             </div>
         </div>
@@ -45,7 +45,7 @@
     </form>
 
     {{-- navbar --}}
-    <nav class="navbar navbar-expand-lg bg-purple-dark sticky-top">
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
         <div class="container-fluid d-flex justify-content-between w-100">
             <a class="navbar-brand fs-3 text-blue-light ff-days-one text-decoration-none" href="{{ route('home') }}">Wesume</a>
             <button class="navbar-toggler m-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,7 +71,7 @@
     </div>
 
     {{-- footer --}}
-    <footer class="text-center bg-purple-dark w-100 bottom-0">
+    <footer class="text-center bg-dark w-100 bottom-0">
         <div class="text-center text-white p-4 small">
             © 2023
             <span class="text-blue-light">www.wesume.com<span class="text-white"> | Design & Developed By </span><a href="#" class="text-decoration-none text-blue-light">Vijayasree S P</a> & <a href="#" class="text-decoration-none text-blue-light">Yakshitha</a></span>

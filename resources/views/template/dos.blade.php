@@ -25,7 +25,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-10">
                     <div class="row main-container h-100">
-                        <div class="col-12 col-xl-3 bg-purple-dark">
+                        <div class="col-12 col-xl-3 bg-dark">
                             {{-- profile picture --}}
                             <div class="py-5">
                                 <div class="profile-img-container position-relative mx-auto p-0">
@@ -85,7 +85,7 @@
                             <div class="py-3">
                                 {{-- jobs --}}
                                 @if(count($jobs)>0)
-                                    <p class="ff-kaisei text-purple-dark fs-5 fw-bold mb-0">Job Experience</p>
+                                    <p class="ff-kaisei text-dark fs-5 fw-bold mb-0">Job Experience</p>
                                     @foreach($jobs as $no => $job)
                                             <p class="ff-roboto text-dark fw-bold text-uppercase small mt-3 mb-0">{{ $job->company_name }}</p>
                                             <p class="ff-roboto-mono text-grey-dark fw-bold text-12 mb-3">{{ $job->title }}</p>
@@ -143,7 +143,7 @@
                             <div class="py-3">
                                 {{-- educations --}}
                                 @if(count($educations)>0)
-                                    <p class="ff-kaisei text-purple-dark fs-5 fw-bold mb-0">Education</p>
+                                    <p class="ff-kaisei text-dark fs-5 fw-bold mb-0">Education</p>
                                     @foreach($educations as $no => $education)
                                             <p class="ff-roboto text-dark fw-bold text-uppercase small mt-3 mb-0">{{ $education->school }}</p>
                                             <p class="ff-roboto-mono text-grey-dark fw-bold text-12 mb-3">{{ $education->degree }}</p>

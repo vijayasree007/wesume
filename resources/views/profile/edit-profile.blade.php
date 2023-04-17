@@ -15,7 +15,7 @@
                 <p class="ff-monserrat d-block text-grey-dark small">Profile details will be displayed on resume</p>
             </div>
             <a href="{{ route('password.edit') }}">
-                <button type="button" class="btn btn-main btn-width text-white ff-montserrat"><small>{{ __('Update Password') }}</small></button>
+                <button type="button" class="btn  btn-dark rounded-pill btn-width text-white ff-montserrat"><small>{{ __('Update Password') }}</small></button>
             </a>
         </div>
 
@@ -90,9 +90,9 @@
                         <input type="text" class="form-control main-input ff-montserrat small" id="userWebsite" name="userwebsite" value="{{ Auth::user()->website }}">
                     </div>
                     <div class="d-flex justify-content-center align-items-center mt-5 flex-column flex-md-row">
-                        <button type="button" class="btn btn-main btn-width m-2 text-white" data-bs-toggle="modal" data-bs-target="#saveProfileModal"><small>{{ __('Save Profile') }}</small></button>
+                        <button type="button" class="btn  btn-dark rounded-pill btn-width m-2 text-white" data-bs-toggle="modal" data-bs-target="#saveProfileModal"><small>{{ __('Save Profile') }}</small></button>
                         <a href="{{ route('profile.edit') }}">
-                            <button type="button" class="btn btn-main-blue btn-width m-2 text-blue-dark"><small>{{ __('Cancel') }}</small></button>
+                            <button type="button" class="btn  btn-dark rounded-pill-blue btn-width m-2 text-blue-dark"><small>{{ __('Cancel') }}</small></button>
                         </a>
                     </div>
 
@@ -102,8 +102,8 @@
                             <div class="modal-content text-center">
                                 <div class="modal-body p-5">
                                     <p class="modal-title fw-bold fs-2 text-dark ff-days-one" id="saveProfileModalLabel">Are you sure to save your profile?</p>
-                                    <button type="button" onclick="checkSubmit()" class="btn btn-main text-white mt-3 w-100"><small>{{ __('Save Profile') }}</small></button>
-                                    <button type="button" class="btn btn-main-blue text-blue-dark mt-3 w-100" data-bs-dismiss="modal"><small>{{ __('Cancel') }}</small></button>
+                                    <button type="button" onclick="checkSubmit()" class="btn btn-dark rounded-pill text-white mt-3 w-100"><small>{{ __('Save Profile') }}</small></button>
+                                    <button type="button" class="btn btn-dark rounded-pill text-white mt-3 w-100" data-bs-dismiss="modal"><small>{{ __('Cancel') }}</small></button>
                                 </div>
                             </div>
                         </div>

@@ -22,7 +22,7 @@
         <div class="d-flex justify-content-between flex-column flex-md-row">
             <h1 class="text-dark fs-4 ff-days-one">My Resume</h1>
             <a href="{{ route('resume.view-new-resume') }}" class="align-self-center">
-                <button type="button" class="btn btn-main btn-width text-white ff-montserrat"><small>{{ __('Create New') }}</small></button>
+                <button type="button" class="btn btn-dark rounded-pill btn-width text-white ff-montserrat"><small>{{ __('Create New') }}</small></button>
             </a>
         </div>
 
@@ -93,7 +93,7 @@
                 <div class="modal-body p-5">
                     <input type="hidden" id="deleteId" name="resume_id">
                     <p class="modal-title fw-bold fs-2 text-dark ff-days-one" id="deleteModalLabel">Are you sure to delete <span id="deleteTitle"></span>?</p>
-                    <button type="submit" class="btn btn-main text-white mt-3 w-100"><small>{{ __('Delete') }}</small></button>
+                    <button type="submit" class="btn  btn-dark rounded-pill text-white mt-3 w-100"><small>{{ __('Delete') }}</small></button>
                     <button type="button" class="btn btn-main-blue text-blue-dark mt-3 w-100" data-bs-dismiss="modal"><small>{{ __('Cancel') }}</small></button>
                 </div>
             </div>

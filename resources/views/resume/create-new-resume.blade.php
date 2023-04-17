@@ -58,7 +58,7 @@
                                         </label>
                                     </div>
                                     <a href="{{ route('resume.preview-resume', ['template' => $template->name]) }}" target="_blank">
-                                        <button type="button" class="btn btn-main btn-width text-white ff-montserrat"><small>{{ __('Preview') }}</small></button>
+                                        <button type="button" class="btn  btn-dark rounded-pill btn-dark rounded-pill btn-width text-white ff-montserrat"><small>{{ __('Preview') }}</small></button>
                                     </a>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@
 
                     {{-- checking either it is create new resume or edit resume settings (save - edit) (continue-create new) --}}
                     <div class="text-center mt-5">
-                        <button type="submit" class="btn btn-main btn-width text-white m-2">
+                        <button type="submit" class="btn  btn-dark rounded-pill btn-width text-white m-2">
                             <small>
 
                             @if($resume ?? '')
@@ -78,7 +78,7 @@
 
                             </small>
                         </button>
-                        <a href="{{ url()->previous() }}" class="btn btn-main-blue btn-width text-decoration-none text-blue-dark m-2"><small>Cancel</small></a>
+                        <a href="{{ url()->previous() }}" class="btn  btn-dark rounded-pill  btn-width text-decoration-none text-white m-2"><small>Cancel</small></a>
                     </div>
                 </div>
             </form>

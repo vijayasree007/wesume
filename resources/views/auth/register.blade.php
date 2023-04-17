@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<div class="container-fluid bg-purple-dark register-page">
+<div class="container-fluid bg-dark register-page">
     <div class="row justify-content-center h-100 py-5">
         <div class="col-12 col-xl-6">
             <div class="form-container p-5">

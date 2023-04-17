@@ -10,7 +10,7 @@
         <div class="d-flex justify-content-between flex-column flex-md-row">
             <h1 class="text-dark fs-4 ff-days-one">Edit Resume</h1>
             <a href="{{ route('home') }}" class="align-self-center">
-                <button type="button" class="btn btn-main btn-width text-white ff-montserrat"><small>{{ __('Return to Dashboard') }}</small></button>
+                <button type="button" class="btn  btn-dark rounded-pill btn-width text-white ff-montserrat"><small>{{ __('Return to Dashboard') }}</small></button>
             </a>
         </div>
 
@@ -194,8 +194,8 @@
                         <div id="addJobAchievement-0"></div>
                     </div>
                     <div class="d-flex justify-content-center py-5">
-                        <button type="submit" class="btn btn-main btn-width me-3 text-white"><small>{{ __('Add Job') }}</small></button>
-                        <button type="button" class="btn btn-main-blue btn-width text-blue-dark" onclick="cancelAddJob()"><small>{{ __('Cancel') }}</small></button>
+                        <button type="submit" class="btn  btn-dark rounded-pill btn-width me-3 text-white"><small>{{ __('Add Job') }}</small></button>
+                        <button type="button" class="btn  btn-dark rounded-pill-blue btn-width text-blue-dark" onclick="cancelAddJob()"><small>{{ __('Cancel') }}</small></button>
                     </div>
                 </form>
             </div>
@@ -387,8 +387,8 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-center py-5">
-                                <button type="submit" class="btn btn-main btn-width me-3 text-white"><small>{{ __('Save') }}</small></button>
-                                <button type="button" class="btn btn-main-blue btn-width text-blue-dark" onclick="cancelEditJob({{$no}})"><small>{{ __('Cancel') }}</small></button>
+                                <button type="submit" class="btn  btn-dark rounded-pill btn-width me-3 text-white"><small>{{ __('Save') }}</small></button>
+                                <button type="button" class="btn  btn-dark rounded-pill-blue btn-width text-blue-dark" onclick="cancelEditJob({{$no}})"><small>{{ __('Cancel') }}</small></button>
                             </div>
                         </form>
                     </div>
@@ -492,8 +492,8 @@
                         <div id="addEducationAchievement-0"></div>
                     </div>
                     <div class="d-flex justify-content-center py-5">
-                        <button type="submit" class="btn btn-main btn-width me-3 text-white"><small>{{ __('Add Education') }}</small></button>
-                        <button type="button" class="btn btn-main-blue btn-width text-blue-dark" onclick="cancelAddEducation()"><small>{{ __('Cancel') }}</small></button>
+                        <button type="submit" class="btn  btn-dark rounded-pill btn-width me-3 text-white"><small>{{ __('Add Education') }}</small></button>
+                        <button type="button" class="btn  btn-dark rounded-pill-blue btn-width text-blue-dark" onclick="cancelAddEducation()"><small>{{ __('Cancel') }}</small></button>
                     </div>
                 </form>
             </div>
@@ -642,8 +642,8 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-center py-5">
-                                <button type="submit" class="btn btn-main btn-width me-3 text-white"><small>{{ __('Save') }}</small></button>
-                                <button type="button" class="btn btn-main-blue btn-width text-blue-dark" onclick="cancelEditEducation({{$no}})"><small>{{ __('Cancel') }}</small></button>
+                                <button type="submit" class="btn  btn-dark rounded-pill btn-width me-3 text-white"><small>{{ __('Save') }}</small></button>
+                                <button type="button" class="btn  btn-dark rounded-pill-blue btn-width text-blue-dark" onclick="cancelEditEducation({{$no}})"><small>{{ __('Cancel') }}</small></button>
                             </div>
                         </form>
                     </div>
@@ -663,8 +663,8 @@
                 <div class="modal-body p-5">
                     <input type="hidden" id="deleteId" name="resume_id">
                     <p class="modal-title fw-bold fs-2 text-dark ff-days-one" id="deleteModalLabel">Are you sure to delete <span id="deleteTitle"></span>?</p>
-                    <button type="submit" class="btn btn-main text-white mt-3 w-100"><small>{{ __('Delete') }}</small></button>
-                    <button type="button" class="btn btn-main-blue text-blue-dark mt-3 w-100" data-bs-dismiss="modal"><small>{{ __('Cancel') }}</small></button>
+                    <button type="submit" class="btn  btn-dark rounded-pill text-white mt-3 w-100"><small>{{ __('Delete') }}</small></button>
+                    <button type="button" class="btn  btn-dark rounded-pill-blue text-blue-dark mt-3 w-100" data-bs-dismiss="modal"><small>{{ __('Cancel') }}</small></button>
                 </div>
             </div>
         </div>
@@ -683,8 +683,8 @@
                     <input type="hidden" id="deleteType" name="type">
                     <input type="hidden" id="deleteJobEducationId" name="id">
                     <p class="modal-title fw-bold fs-2 text-dark ff-days-one" id="deleteJobEducationModalLabel">Are you sure to delete <span id="deleteJobEducationTitle"></span>?</p>
-                    <button type="submit" class="btn btn-main text-white mt-3 w-100"><small>{{ __('Delete') }}</small></button>
-                    <button type="button" class="btn btn-main-blue text-blue-dark mt-3 w-100" data-bs-dismiss="modal"><small>{{ __('Cancel') }}</small></button>
+                    <button type="submit" class="btn  btn-dark rounded-pill text-white mt-3 w-100"><small>{{ __('Delete') }}</small></button>
+                    <button type="button" class="btn  btn-dark rounded-pill-blue text-blue-dark mt-3 w-100" data-bs-dismiss="modal"><small>{{ __('Cancel') }}</small></button>
                 </div>
             </div>
         </div>
@@ -702,8 +702,8 @@
                     <input type="hidden" name="resume_id" value="{{ $resume->id }}">
                     <input type="hidden" id="status" name="status">
                     <p class="modal-title fw-bold fs-2 text-dark ff-days-one" id="statusModalLabel">Are you sure to <span id="statusTitle"></span> this resume?</p>
-                    <button type="submit" class="btn btn-main text-white mt-3 w-100"><small id="statusBtn"></small></button>
-                    <button type="button" class="btn btn-main-blue text-blue-dark mt-3 w-100" data-bs-dismiss="modal"><small>{{ __('Cancel') }}</small></button>
+                    <button type="submit" class="btn  btn-dark rounded-pill text-white mt-3 w-100"><small id="statusBtn"></small></button>
+                    <button type="button" class="btn  btn-dark rounded-pill-blue text-blue-dark mt-3 w-100" data-bs-dismiss="modal"><small>{{ __('Cancel') }}</small></button>
                 </div>
             </div>
         </div>

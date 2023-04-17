@@ -105,7 +105,7 @@
             </svg>
         </div>
     </div>
-    <div class="col-12 col-xl-6 order-1 order-xl-2 auth bg-purple-dark py-5 py-xl-0">
+    <div class="col-12 col-xl-6 order-1 order-xl-2 auth bg-dark py-5 py-xl-0">
         <div class="d-flex justify-content-center align-items-center h-100 w-100">
             <div class="col-10 col-xl-8">
                 <h2 class="text-center fs-1 ff-days-one mb-5 text-blue-light">
@@ -142,7 +142,7 @@
                         </a>
                     </div>
                     <div class="d-flex justify-content-center mt-5">
-                        <button type="submit" class="btn btn-main-purple-light-2 btn-width text-white"><small>{{ __('Reset Password') }}</small></button>
+                        <button type="submit" class="btn btn-main-light-2 btn-width text-white"><small>{{ __('Reset Password') }}</small></button>
                     </div>
                 </form>
             </div>
